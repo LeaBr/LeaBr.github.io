@@ -37,3 +37,9 @@ GitHub
 Créer un compte Git sur le site https://github.com/
 Puis suivre les instructions de https://pages.github.com/
 
+git add --all
+
+git commit -m "Initial commit"
+
+git push -u origin master
+
