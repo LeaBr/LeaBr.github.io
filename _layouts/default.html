@@ -4,38 +4,31 @@
 
 		<head>
 			<meta http-equiv="Content-Type" content="text/html; charset=UTF8"/>
-			<title> titre </title>
-    <!-- Bootstrap Core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+			<title> {{site.title}} </title>
 
-    <!-- Custom CSS -->
-    <link href="/css/modern-business.css" rel="stylesheet">
+   			 <!-- Bootstrap Core CSS -->
+   			 <link href="/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    			 <!-- Custom CSS -->
+    			 <link href="/css/modern-business.css" rel="stylesheet">
+
+    			 <!-- Custom Fonts -->
+   			 <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 		</head>
 
 
 		<body>
 
 			{% include header.html %}
-			<!--<header> 
-				<h1> {{site.title}} </h1>
-				<i> {{site.description}} </i> 
-			</header>-->
+
 
 			<main>
 				<h2> {{site.titrepage}} </h2>
 				{{content}}
-
-
-
 			</main>
 
+
 			{% include footer.html %}
-			<!--<footer>
-				IUT Elbeuf 24 Cours Gambetta, 76500 Elbeuf 02 32 96 10 20
-			</footer>-->
 
 
 		</body>
