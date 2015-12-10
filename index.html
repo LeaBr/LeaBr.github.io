@@ -4,9 +4,6 @@ layout: default
 	<h1> {{site.title}} </h1>
 	<i> {{site.description}} </i> 
 
-<div class="row">
-{% for post in site.posts limit:3 %}
-
     <!-- Page Content -->
     <div class="container">
 
@@ -23,8 +20,12 @@ layout: default
                 </ol>
             </div>
         </div>
-	</div>
-        <!-- /.row -->
+</div>
+    
+<div class="row">
+{% for post in site.posts limit:3 %}
+
+
 
             <div class="col-md-4 img-portfolio">
                 <a href="{{ post.url }}">
