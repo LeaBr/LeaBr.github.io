@@ -25,6 +25,14 @@
                     <li>
                         <a href="/contact.html">Contact</a>
                     </li>
+
+  <ul>
+      {% for p in site.pages %}
+        <li>
+          <a href="{{ p.url }}">{{ p.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
   
                 </ul>
             </div>
